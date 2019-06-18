@@ -150,7 +150,7 @@ Andrew@Andrew-PC MINGW64 ~/PhysicsClass_Summer2019 (master)
 $ git branch
 * master
   test2
-# I was able to delete it so I'm sure why I'm not getting the error messeages
+# I was able to delete it so I'm not sure why I'm not getting the error messeages
 
 Andrew@Andrew-PC MINGW64 ~/PhysicsClass_Summer2019 (master)
 $ git checkout test2
