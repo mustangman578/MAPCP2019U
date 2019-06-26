@@ -1,0 +1,20 @@
+Overflow
+
+If we store a larger or smaller number in int8 it can display a random value up to 127 or -128
+For example:
+x = np.int8(12888)
+
+x
+Out[34]: 88
+
+x = np.int8(-11111)
+
+x
+Out[38]: -103
+
+
+np.iinfo(np.int16)
+Out[24]: iinfo(min=-32768, max=32767, dtype=int16)
+
+np.iinfo(np.int32)
+Out[25]: iinfo(min=-2147483648, max=2147483647, dtype=int32)

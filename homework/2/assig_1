@@ -1,0 +1,89 @@
+a = 1 # creates variable a to equal int 1
+
+b = 'x' # creates variable b to equal string x
+
+c = True # sets variable c to equal True
+
+%whos # Lists variables, their typs and data
+Variable   Type    Data/Info
+----------------------------
+a          int     1
+b          str     x
+c          bool    True
+
+a + c # adds variables a and c
+Out[5]: 2
+
+d = [1,2,3,4] # creates variable d to equal an array with elements 1,2,3,4
+
+e = ['a' 'b' 'c' 'd'] # creates variable e to equal an array with string element 'abcd'
+
+e
+Out[8]: ['abcd']
+
+d
+Out[9]: [1, 2, 3, 4]
+
+f = ['a','b','c','d'] # creates variable f to equal array have individual elements with strings 'a', 'b', 'c', 'd'
+
+f
+Out[11]: ['a', 'b', 'c', 'd']
+
+g = ['abcd'] # creates variable g to equal array with element 'abcd'
+
+g
+Out[13]: ['abcd']
+
+h = {‘a’ ‘b’ ‘c’ ‘d’} # invalid syntax for python
+  File "<ipython-input-14-3bf40a52dd47>", line 1
+    h = {‘a’ ‘b’ ‘c’ ‘d’}
+           ^
+SyntaxError: invalid character in identifier
+
+
+i = { a b c d} # invalid syntax for python
+  File "<ipython-input-15-83f82a98fb11>", line 1
+    i = { a b c d}
+            ^
+SyntaxError: invalid syntax
+
+
+class(a) # invalid syntax for python
+  File "<ipython-input-16-e60702db5f38>", line 1
+    class(a)
+         ^
+SyntaxError: invalid syntax
+
+
+type(a) #Lists the variable type a which is an integer
+Out[17]: int
+
+True # True is true
+Out[18]: True 
+
+ture # Invalid syntax for python
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-19-623c7a696e28> in <module>
+----> 1 ture
+
+NameError: name 'ture' is not defined
+
+true
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-20-724ba28f4a9a> in <module>
+----> 1 true
+
+NameError: name 'true' is not defined
+
+False # False is False
+Out[21]: False
+
+false # Invalid syntax for python
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-22-b73d74fcede9> in <module>
+----> 1 false
+
+NameError: name 'false' is not defined
