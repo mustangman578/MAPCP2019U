@@ -1,0 +1,42 @@
+Python: Aliasing vs. Copying variables
+
+(A)
+a = 5
+b = a
+print (id(a), id(b)) # prints the unique id of a and b which are constant
+
+c = b
+b = 3
+print (a,b,c) #prints a=5, b is then set to a which is 5, c is set to b which is 5, b is then set to 3 after c
+print (id(a),id(b),id(c)) # b and a ids have to be constant
+
+b = a
+b = 5
+print (id(a), id(b)) # b and a ids have to be constant
+
+(B)
+a = [5]
+b = a
+print (id(a), id(b))#prints the unique id of a and b which are constant
+
+b.append(1)
+print (a,b)#prints the arrays of a which is equal to b
+print (id(a),id(b))#prints the ids again
+
+(C)
+a = [5]
+b = list(a)
+print (a,b)#prints the array a and since b is the list of a, it prints a again
+print (id(a), id(b))#prints the unique ids which are constant
+ 
+b = a[:]
+print (a,b)#prints the arrays of a and b
+print (id(a), id(b))#id for b is now changed but a is still the same
+
+(D)
+a = (5,)
+b = tuple(a)
+print (id(a), id(b))#prints the ids and since tuples are imutable they stay the same
+ 
+b = a[:]
+print (id(a), id(b))
