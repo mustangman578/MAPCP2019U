@@ -1,0 +1,21 @@
+1. L1, L2, L3, Cache, RAM
+
+2. c - Row
+   Fortran - column
+   Matlab - column
+   Python - row
+
+3. branching
+   iteration
+   storage
+
+4. run time
+   symantic
+   syntax
+
+5. run time
+
+6. 2,147,483,647 
+
+7. int16 is signed interger of 2 bytes that can store both positive and negative values
+   uint16 is unsigned of 2 bytes that only stores positive 
