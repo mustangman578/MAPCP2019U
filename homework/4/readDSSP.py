@@ -1,11 +1,12 @@
 import os
 import sys
 
-outfile = sys.argv[1]
+infile = sys.argv[1]
+outfile = sys.argv[2]
 
 
 
-myFile=open("1A2T_A.dssp", 'r')
+myFile=open(infile, 'r')
 outfile=open (outfile, 'w')
     
 AAlist = []
