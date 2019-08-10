@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from scipy.io import loadmat
-data = loadmat('cells.mat')
+data = loadmat('../data/cells.mat')
 cells = data['cells']
 days = [10,12,14,16,18,20,22]
 
@@ -32,6 +32,6 @@ for day in range(len(days)):
                 #plt.plot(cells[0:41][0:41][i][1], cells[0:41][0:41][i][1],'r')
     cbar = plt.colorbar(cax = cbaxes)
 
-    fig.savefig("day%s.png" %days[day])
+    fig.savefig("../results/day%s.png" %days[day])
 
 
