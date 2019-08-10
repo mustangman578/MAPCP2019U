@@ -3,7 +3,10 @@ from scipy.io import loadmat
 data = loadmat('cells.mat')
 cells = data['cells']
 days = [10,12,14,16,18,20,22]
+<<<<<<< HEAD
 tumor_cells = [0 for i in range(len(days))]
+=======
+>>>>>>> 958fb139c83fe0d250be2304b792c6edec520218
 
 for day in range(len(days)):
 
@@ -28,4 +31,7 @@ for day in range(len(days)):
         plt.imshow((cells[:,:,i,day]), cmap='RdBu')
                 #plt.plot(cells[0:41][0:41][i][1], cells[0:41][0:41][i][1],'r')
     cbar = plt.colorbar(cax = cbaxes)
+<<<<<<< HEAD
     fig.savefig("day%s.png" %days[day])
+=======
+>>>>>>> 958fb139c83fe0d250be2304b792c6edec520218
